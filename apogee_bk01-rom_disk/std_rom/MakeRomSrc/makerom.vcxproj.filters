@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vinlib">
+      <UniqueIdentifier>{6ec27a46-621d-46b0-82fc-0e294fa4613b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VinLib\console.cpp">
+      <Filter>vinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="VinLib\exception.cpp">
+      <Filter>vinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="VinLib\exec.cpp">
+      <Filter>vinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="VinLib\file.cpp">
+      <Filter>vinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="VinLib\findfiles.cpp">
+      <Filter>vinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="VinLib\string.cpp">
+      <Filter>vinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="VinLib\winapi_exception.cpp">
+      <Filter>vinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="folders.cpp" />
+    <ClCompile Include="inifile.cpp" />
+    <ClCompile Include="makerom.cpp" />
+    <ClCompile Include="romwriter.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="translaterk86.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VinLib\console.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\exception.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\exec.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\file.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\findfiles.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\std.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\string.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\types.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="VinLib\winapi_exception.h">
+      <Filter>vinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="folders.h" />
+    <ClInclude Include="inifile.h" />
+    <ClInclude Include="romwriter.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="translaterk86.h" />
+  </ItemGroup>
+</Project>
